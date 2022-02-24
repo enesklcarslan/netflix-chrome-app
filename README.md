@@ -1,4 +1,4 @@
-# turkish-netflix-categories-chrome-extension
+# Turkish Netflix Categories Chrome Extension
 
 ## Description
 A Chrome extension that adds a list of mostly Turkish categories to Netflix.
@@ -12,10 +12,12 @@ The extension will work on any Netflix page. You can see a "Browse All" button o
 When you click on it, it will show a list of categories.
 
 ## Author
-[@enesklcarslan]
+[@enesklcarslan](https://github.com/enesklcarslan)
 
 ## Thanks To
-[@f] for providing the JSON data
+[@f](https://github.com/f) for the netflix-data
+
+
 
 
 
