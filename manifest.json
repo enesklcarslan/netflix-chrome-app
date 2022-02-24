@@ -1,0 +1,21 @@
+{
+    "name": "Netflix Categories Extension",
+    "description": "Adds a category menu to Netflix for better browsing your favorite genres.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+            "matches": ["https://www.netflix.com/browse/*"],
+            "js": ["js/jquery-3.6.0.min.js"],
+            "run_at": "document_start"
+        },
+        {
+            "matches": ["https://www.netflix.com/browse/*"],
+            "js": ["js/background.js"],
+            "run_at": "document_start"
+        }
+    ],
+    "host_permissions": [
+        "https://www.netflix.com/browse/*"
+    ],
+    "permissions": ["scripting", "tabs", "storage", "activeTab"]
+}
